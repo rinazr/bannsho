@@ -93,6 +93,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         saveData.set(numberData, forKey: "number")
         saveData.synchronize()
         
+        
+        
         //閉じる処理
         imagePicker.dismiss(animated: true, completion: nil)
         
